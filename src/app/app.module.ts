@@ -7,14 +7,24 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { AboutComponent } from './about/about.component';
-import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { BluesComponent } from './blues/blues.component';
+import { HipHopComponent } from './hip-hop/hip-hop.component';
+import { JazzComponent } from './jazz/jazz.component';
+import { ClassicalComponent } from './classical/classical.component';
+import { PopComponent } from './pop/pop.component';
+import { IndieComponent } from './indie/indie.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     AboutComponent,
-    MarketplaceComponent
+    BluesComponent,
+    HipHopComponent,
+    JazzComponent,
+    ClassicalComponent,
+    PopComponent,
+    IndieComponent
   ],
   imports: [
     BrowserModule,
