@@ -1,1 +1,13 @@
-<new-listing></new-listing>
+<div class="container-fluid">
+  <h1>Available Cassettes:</h1>
+<div *ngFor="let listing of bluesListings">
+  <div *ngIf="listing.category === 'classical'">
+    <ul> Listing by: {{listing.name}}
+      <li>Cassette description: {{listing.description}}</li>
+      <li>{{listing.image}}</li>
+      <li>Contact email:{{listing.email}}</li>
+    </ul>
+  </div>
+</div>
+<new-listing (newListingSender)="addListing($event)"></new-listing>
+</div>

@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <h1>Available Cassettes:</h1>
-<div *ngFor="let listing of bluesListings">
+<div *ngFor="let listing of listings">
   <div *ngIf="listing.category === 'blues'">
     <ul> Listing by: {{listing.name}}
       <li>Cassette description: {{listing.description}}</li>
@@ -9,5 +9,5 @@
     </ul>
   </div>
 </div>
-<new-listing></new-listing>
+<new-listing (newListingSender)="addListing($event)"></new-listing>
 </div>

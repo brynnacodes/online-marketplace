@@ -3,20 +3,28 @@
     </div>
     <div class="new-listing-form">
       <div class="form-group">
-        <label>Enter listing name:</label>
-        <input #newName><br>
+        <label>Enter listing artist:</label>
+        <input #newArtist><br>
       </div>
       <div class="form-group">
-        <label>Enter listing description:</label>
-        <input #newDescription><br>
+        <label>Enter listing album:</label>
+        <input #newAlbum><br>
       </div>
       <div class="form-group">
         <label>Enter listing image:</label>
         <input #newImage><br>
       </div>
       <div class="form-group">
+        <label>Enter listing name:</label>
+        <input #newName><br>
+      </div>
+      <div class="form-group">
         <label>Enter listing email:</label>
         <input #newEmail><br>
       </div>
-      <button class="btn" (click)="submitForm(newName.value, newDescription.value, newImage.value, newEmail.value); newName.value=''; newDescription.value=''; newImage.value=''; newEmail.value='';">Add listing</button>
+      <div class="form-group">
+        <label>Enter listing category:</label>
+        <input #newCategory><br>
+      </div>
+      <button class="btn" (click)="submitForm(newArtist.value, newAlbum.value, newImage.value, newName.value, newEmail.value, newCategory.value); newArtist.value=''; newAlbum.value=''; newImage.value=''; newName.value=''; newEmail.value=''; newCategory.value='';">Add listing</button>
     <div>
