@@ -1,16 +1,10 @@
 import { Component } from '@angular/core';
-import { Category } from './../category.model';
+import { NewListingComponent } from './../new-listing/new-listing.component';
 
 @Component({
-  selector: 'app-welcome',
+  selector: 'welcome',
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.css']
 })
 export class WelcomeComponent {
-  masterCategoryList: Category[] = [
-    new Category('Blues'),
-    new Category('Hip Hop'),
-    new Category('Indie'),
-    new Category('World')
-  ];
 }

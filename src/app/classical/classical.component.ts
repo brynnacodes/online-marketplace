@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { NewListingComponent } from './../new-listing/new-listing.component';
 
 @Component({
-  selector: 'app-classical',
+  selector: 'classical',
   templateUrl: './classical.component.html',
   styleUrls: ['./classical.component.css']
 })

@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { NewListingComponent } from './../new-listing/new-listing.component';
 
 @Component({
-  selector: 'app-pop',
+  selector: 'pop',
   templateUrl: './pop.component.html',
   styleUrls: ['./pop.component.css']
 })

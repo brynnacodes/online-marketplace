@@ -13,6 +13,7 @@ import { JazzComponent } from './jazz/jazz.component';
 import { ClassicalComponent } from './classical/classical.component';
 import { PopComponent } from './pop/pop.component';
 import { IndieComponent } from './indie/indie.component';
+import { NewListingComponent } from './new-listing/new-listing.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { IndieComponent } from './indie/indie.component';
     JazzComponent,
     ClassicalComponent,
     PopComponent,
-    IndieComponent
+    IndieComponent,
+    NewListingComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { NewListingComponent } from './../new-listing/new-listing.component';
+
 
 @Component({
-  selector: 'app-hip-hop',
+  selector: 'hip-hop',
   templateUrl: './hip-hop.component.html',
   styleUrls: ['./hip-hop.component.css']
 })

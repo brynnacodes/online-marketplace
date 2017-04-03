@@ -1,0 +1,22 @@
+<div id="new-listing-header">
+      <h1>Add New Listing</h1>
+    </div>
+    <div class="new-listing-form">
+      <div class="form-group">
+        <label>Enter listing name:</label>
+        <input #newName><br>
+      </div>
+      <div class="form-group">
+        <label>Enter listing description:</label>
+        <input #newDescription><br>
+      </div>
+      <div class="form-group">
+        <label>Enter listing image:</label>
+        <input #newImage><br>
+      </div>
+      <div class="form-group">
+        <label>Enter listing email:</label>
+        <input #newEmail><br>
+      </div>
+      <button class="btn" (click)="submitForm(newName.value, newDescription.value, newImage.value, newEmail.value); newName.value=''; newDescription.value=''; newImage.value=''; newEmail.value='';">Add listing</button>
+    <div>
